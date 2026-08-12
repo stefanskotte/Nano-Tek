@@ -18,8 +18,8 @@ CN3,Floppy 34,IDC-Header_2x17_P2.54mm_Vertical,66.78,-55.37,0.0,top
 D1,1N4148WS,D_SOD-323,82.65,-49.3,0.0,top
 J1,Sound,PinHeader_1x02_P2.54mm_Vertical,86.1,-46.915,270.0,top
 J2,USB_Prog,PinHeader_2x05_P2.54mm_Vertical,91.63,-36.1,90.0,top
-J3,OLED+SER,PinHeader_1x06_P2.54mm_Vertical,73.15,-20.05,0.0,top
-J4,Encoder,PinHeader_1x05_P2.54mm_Vertical,57.46,-20.05,0.0,top
+J3,OLED,PinSocket_1x04_P2.54mm_Vertical,70.61,-20.05,90.0,top
+J4,Encoder+SER,PinHeader_1x07_P2.54mm_Vertical,49.25,-20.0,90.0,top
 Q1,MMBT3904,SOT-23,81.05,-46.5,180.0,top
 R1,4K7,R_0805_2012Metric,79.2,-32.35,0.0,top
 R10,1K,R_0805_2012Metric,77.4,-49.3,0.0,top

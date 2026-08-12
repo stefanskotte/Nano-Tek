@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.2,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -78,7 +78,15 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|90305000|18455000|394d193b-9848-49c1-b18c-345b526536a7|5c999f1c-4809-45fd-ada5-998558759d0d",
+          ""
+        ],
+        [
           "courtyards_overlap|90657812|23072439|5c999f1c-4809-45fd-ada5-998558759d0d|d154bbb1-83ed-40f6-9c65-8e3fc7ae6637",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|88540000|19950000|394d193b-9848-49c1-b18c-345b526536a7|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -87,6 +95,10 @@
         ],
         [
           "missing_courtyard|67450000|36300000|61d693a7-d1d7-4a7f-9d8f-aab652d96cab|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|88540000|19950000|8b7ed480-d525-4e4e-bb7f-c17a571efa64|5c999f1c-4809-45fd-ada5-998558759d0d",
           ""
         ],
         [
@@ -293,7 +305,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.0"
+      "sch_revision": "1.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -743,7 +755,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "#FLG1-3,R2-5,R7-15,R135,J1-2,J6,D1,#PWR14,#PWR16,C3-10,C12,C78-79,C134,C156,C162,U1,U25,Q1,USB1,H1-4",
+    "used_designators": "#FLG1-3,R2-5,R7-15,R135,J1-2,J4-6,D1,#PWR4,#PWR14,#PWR16,C3-10,C12,C78-79,C134,C156,C162,U1,U25,Q1,USB1,H1-4",
     "variants": []
   },
   "sheets": [
