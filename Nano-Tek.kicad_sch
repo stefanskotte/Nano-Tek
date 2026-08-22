@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Nano-Tek")
-		(date "2026-08-12")
-		(rev "1.1")
+		(date "2026-08-22")
+		(rev "1.2")
 		(company "Vinny, Mesarim, Screemo, Kavanoz, Wrangler, Ordyne")
 		(comment 1 "Schematics derived from OpenFlops design by SukkoPera")
 	)
@@ -15436,7 +15436,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C51118"
+		(property "LCSC" "C23380830"
 			(at 76.2 29.21 0)
 			(hide yes)
 			(show_name no)
