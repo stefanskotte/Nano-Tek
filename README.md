@@ -1,5 +1,7 @@
 # Nano-Tek
 
+**Note: This branch uses a PCB with the 34 pin floppy header is rotated 180 degrees to allow better fitment in some Amiga models. Everything else is the same with the main branch.**
+
 A tiny, modern reimagining of the classic **Gotek** floppy-disk-drive emulator. Nano-Tek keeps the full feature set of a Gotek-style FDD emulator but packs it onto a board that is a fraction of the size, hence the name *Nano*-Tek.
 
 <p align="center">
