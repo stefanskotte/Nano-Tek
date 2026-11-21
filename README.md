@@ -49,6 +49,8 @@ Nano-Tek.pretty/        Project-specific footprint library
 docs/                   Builder's guide, ST-LINK/V2 label
 docs/images/            Rendered board images
 jlcpcb/                 Gerbers, BOM and CPL for JLCPCB assembly
+enclosure/a500-internal-bracket/
+                        3D-printed bracket for fitting inside an Amiga 500
 Nano-Tek.pdf            Schematic export
 ```
 
