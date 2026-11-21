@@ -51,6 +51,8 @@ docs/images/            Rendered board images
 jlcpcb/                 Gerbers, BOM and CPL for JLCPCB assembly
 enclosure/a500-internal-bracket/
                         3D-printed bracket for fitting inside an Amiga 500
+enclosure/a1200-internal-bracket/
+                        3D-printed bracket for fitting inside an Amiga 1200
 Nano-Tek.pdf            Schematic export
 ```
 
