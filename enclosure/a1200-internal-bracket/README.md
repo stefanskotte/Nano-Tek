@@ -4,9 +4,7 @@ A 3D-printed bracket that fits the Nano-Tek inside an Amiga 1200, in place of th
 
 It's the A1200 counterpart of the [Amiga 500 bracket](../a500-internal-bracket/): the board, ESP32 cradle and layout are the same, and only the parts that meet the case differ.
 
-> **Status:** designed from a reference A1200 base and adjusted after a first fit check (front wall moved back 4 mm and widened to blank the whole slot). Photos of a real install will be added.
-
-![Assembled bracket](images/assembly_iso.png)
+![Installed in an Amiga 1200, top case removed](images/installed_inside.jpg)
 
 - Screws to the two factory drive screw points underneath (both on the left-hand rail), plus the drive's sideways fixing on the right-hand side.
 - A full-width, 24 mm front wall blanks off the floppy slot. It sits 4 mm further back than the original drive's front so the top case clears it.
@@ -14,6 +12,18 @@ It's the A1200 counterpart of the [Amiga 500 bracket](../a500-internal-bracket/)
 - The Nano-Tek sits at the rear, with its 34-pin header on the rear edge where a real drive's data connector is.
 - A cradle holds an ESP32-S3 SuperMini, plugged into the Nano-Tek's USB-C port through a straight USB-C coupler, so its weight stays off the Nano-Tek's socket.
 - The OLED and rotary encoder are mounted elsewhere on the case; this bracket only has zip-tie points for their leads.
+
+## Installed
+
+The photo at the top shows the bracket fitted in an A1200 with the Nano-Tek, ESP32-S3 SuperMini and coupler, before the cables are connected.
+
+From outside, the slot is blanked off and the dummy eject button fills the drive-button hole:
+
+![Slot blanked and dummy eject button](images/installed_slot.jpg)
+
+The model, for reference:
+
+![Assembled bracket render](images/assembly_iso.png)
 
 ## Differences from the A500 bracket
 
@@ -75,11 +85,11 @@ Use an ESP32-S3 (or S2), not a C3, if the ESP32 is to appear to FlashFloppy as a
 
 ![Eject button in place](images/eject_closeup.png)
 
-## Check on first fit
+## Fit notes
 
-- **Power plug clearance.** The Nano-Tek's power plug (CN1) goes in from the right-hand side, just in front of the side screw boss. The path is clear in the model, but check the A1200 case around the side screw leaves room for the plug and its wires.
-- **Eject and slot alignment.** The eject position comes from a reference design, not from measuring a case. If it's off, adjust `eject_x`, `eject_z` and `eject_reach`.
-- **Top case clearance at the front.** The front wall is set 4 mm back from the original drive's front because the top case hit the front corner. `plate_y1` moves it; `eject_reach` must change by the same amount so the eject face stays in its hole.
+- **Top case clearance at the front.** The front wall is set 4 mm back from the original drive's front because the top case hit the front corner on the first fit. `plate_y1` moves it; `eject_reach` must change by the same amount so the eject face stays in its hole.
+- **Power plug clearance.** The Nano-Tek's power plug (CN1) goes in from the right-hand side, just in front of the side screw boss.
+- **Eject position.** Taken from a reference design. If it's off in your case, adjust `eject_x`, `eject_z` and `eject_reach`.
 
 ## Adjusting the design
 
